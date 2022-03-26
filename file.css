@@ -1,0 +1,70 @@
+		.main-section{
+				width:100%;
+				height:auto;
+				
+			}
+			#aside{
+				float:left;
+				width:21%;
+				height:660px;
+				background-color:#2c2c2c;
+				color:white;
+			}
+			#title{
+				text-align:center;
+				padding:50px 40px;
+				margin-top:0px;
+				background-color:green;
+			}
+			#aside li{
+				text-align:center;
+				list-style-type:none;
+				padding:30px 20px;
+				margin-right:25px;
+				border-bottom:1px solid white;
+				
+				
+			}
+			aside li:hover{
+				background-color:green;
+			}
+			aside li a{
+				text-decoration:none;
+				color:white;
+			}
+			#article{
+				float:right;
+				width:79%;
+				height:660px;
+				
+				
+			}
+			#article_title{
+				font-family:cooper;
+				
+				padding-bottom:30px;
+				border-bottom:2px solid green;
+			}
+			#div_article{
+				margin:auto;
+				padding:60px 60px;
+			}
+			article li{
+				list-style-type:none;
+				display:inline;
+				padding:20px 40px;
+				background-color:green;
+				margin:10px;
+				
+			}
+			article li a{
+				text-decoration:none;
+				color:white;
+			}
+			#content{
+				padding-bottom:40px;
+				line-height:2;
+			}
+			code{
+				color:red;
+			}
